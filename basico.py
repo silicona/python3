@@ -102,6 +102,7 @@ print( "float() - Transforma en float, si es posible (complex y string solo alfa
 print( "complex() - Transforma en complex, si es posible (string solo alfa no)" )
 print( "bool() - Transforma en booleano: 0 = False" )
 print( "eval() - Evalúa un objeto str como si fuera una expresión, no un string sin más" )
+print( "upper() / lower() / capitalize() - Caracteres de str en mayusculas / minusculas / prim mayuscula" )
 
 print( "\nTipo de dato secuencial" )
 print( "Strings - Cadena" )
@@ -109,6 +110,7 @@ print( "list - Array numerico: [5, 7, 9, 'Sergio', 45.3] (Anidacion del mismo ti
 print( "tuple - Array numerico inmutable: (5, 7, 9, 'Sergio', 45.3) (Posibles keys de Diccionarios)" )
 print( "range - Array numerico: [5, 7, 9, 'Sergio', 45.3]" )
 print( "set - Conjunto no ordenado de elementos unicos: set('abracadabra')" )
+print( "diccionario - Array con clave y valor: {'a': 1, 'b': 2, 'c': 3, 'd': 4}" )
 
 print( "\nFunciones de tipo de dato secuencial" )
 print( "len() - Devuelve la longitud de un str o list: len('Python es grande') -> ", len('Python es grande') )
@@ -123,7 +125,10 @@ print( "+ / += - Concatena str o list" )
 print( "* - Repite str o list" )
 print( "var in list - Devuelve True si var está en list" )
 print( "var not in list - Devuelve True si var no está en list" )
-print( "+ - - Comparaciones entre sets" )
+print( "- | & ^ - Comparaciones entre sets" )
+print( "dict() - Crea un dict con los argumentos" )
+print( "zip() - Crea un dict con dos elementos iterables" )
+print( "keys() - Crea un list con las claves de un dict" )
 
 
 
@@ -386,6 +391,41 @@ import statistics as stats
 
 edades = [22, 33, 44, 26, 32, 12]
 print( "\tEstadísitica de edades: ", stats.mean(edades) )
+
+print( "\nCalendario" )
+from datetime import datetime, date, time, timedelta
+import calendar
+
+ahora = datetime.now()
+
+print( "\tDia: ", ahora.day )
+print( "\tMes: ", ahora.month )
+print( "\tAño: ", ahora.year )
+print( "\tHora: ", ahora.hour )
+print( "\tMinutos: ", ahora.minute )
+print( "\tSegundos: ", ahora.second )
+print( "\tMicrosegundos: ", ahora.microsecond )
+
+hora = time(10, 5, 0)
+print( "\tCreando un dato time: ", hora)
+
+hora2 = time(23, 25, 40)
+print( "\tCreando otro dato time: ", hora2)
+
+print( "\tUno > Otro: ", hora > hora2 )
+
+fec1 = date.today()
+fec2 = date.today() + timedelta(days = 2)
+print( "\tfec1 > fec2: ", fec1 > fec2 )
+
+import time as tiempo
+
+print( "\tDiferencia UTC y horario verano: ", tiempo.altzone)
+print( "\tDiferencia UTC y horario local: ", tiempo.timezone)
+print( "\tajuste de verano: ", tiempo.tzname)
+print( "\tHorario actual con ajuste verano: ", tiempo.daylight)
+
+print( "\tCalendario", calendar.month(2018, 8) )
 
 
 print( "\nDemora de procesamiento")

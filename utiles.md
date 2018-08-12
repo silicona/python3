@@ -1,5 +1,8 @@
 # Utiles de Python
 
+Ver version python
+	: [`import sys`] `sys.version_info.major` - Devuelve la version como int
+	
 Ver modulos instalados
 	: `pydoc modules`
 
