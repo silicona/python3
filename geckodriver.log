@@ -335,3 +335,1492 @@
 1534199986737	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Hhbva83UxyHN"
 1534199991727	Marionette	INFO	Listening on port 41243
 1534199991764	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16830, Gecko_IOThread] WARNING: pipe error (66): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 17009, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 17241, Gecko_IOThread] WARNING: pipe error (75): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534313074185	geckodriver	INFO	geckodriver 0.20.0
+1534313074305	geckodriver	INFO	Listening on 127.0.0.1:36103
+1534313075093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rUpecBtEtDzU"
+1534313082920	Marionette	INFO	Listening on port 36381
+1534313082942	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534313140124	geckodriver	INFO	geckodriver 0.20.0
+1534313140133	geckodriver	INFO	Listening on 127.0.0.1:36861
+1534313141141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wHKD5lzWvihT"
+1534313146077	Marionette	INFO	Listening on port 45637
+1534313146166	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534313292111	geckodriver	INFO	geckodriver 0.20.0
+1534313292121	geckodriver	INFO	Listening on 127.0.0.1:45005
+1534313293130	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gin7C08QrCVs"
+1534313297990	Marionette	INFO	Listening on port 36751
+1534313298057	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534313332781	geckodriver	INFO	geckodriver 0.20.0
+1534313332795	geckodriver	INFO	Listening on 127.0.0.1:58730
+1534313333797	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.82VcCVr9hraD"
+1534313338743	Marionette	INFO	Listening on port 33513
+1534313338842	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534314128374	geckodriver	INFO	geckodriver 0.20.0
+1534314128383	geckodriver	INFO	Listening on 127.0.0.1:42582
+1534314128400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EGLUEmeZ1ybZ"
+1534314133408	Marionette	INFO	Listening on port 38466
+1534314133436	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534314254943	geckodriver	INFO	geckodriver 0.20.0
+1534314254952	geckodriver	INFO	Listening on 127.0.0.1:42982
+1534314255958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.NzwvoyZ6FUYm"
+1534314261318	Marionette	INFO	Listening on port 35643
+1534314261393	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534314279862	geckodriver	INFO	geckodriver 0.20.0
+1534314279874	geckodriver	INFO	Listening on 127.0.0.1:55152
+1534314280884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.s3zhJvDt7fOi"
+1534314285715	Marionette	INFO	Listening on port 36331
+1534314285812	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534314429983	geckodriver	INFO	geckodriver 0.20.0
+1534314429997	geckodriver	INFO	Listening on 127.0.0.1:55912
+1534314431000	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oddxZ2QPPWm6"
+1534314436088	Marionette	INFO	Listening on port 34316
+1534314436140	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4654, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Parent 4454, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 4280, Gecko_IOThread] WARNING: pipe error (75): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 4101, Gecko_IOThread] WARNING: pipe error (75): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 3583, Gecko_IOThread] WARNING: pipe error (71): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534314559540	geckodriver	INFO	geckodriver 0.20.0
+1534314559549	geckodriver	INFO	Listening on 127.0.0.1:39563
+1534314560551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.U2SGEw1YkwhS"
+1534314565299	Marionette	INFO	Listening on port 39417
+1534314565373	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 4905, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534314636608	geckodriver	INFO	geckodriver 0.20.0
+1534314636619	geckodriver	INFO	Listening on 127.0.0.1:54996
+1534314637631	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.DxQ7dNH8Tvnf"
+1534314642395	Marionette	INFO	Listening on port 34804
+1534314642464	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534314879455	geckodriver	INFO	geckodriver 0.20.0
+1534314879468	geckodriver	INFO	Listening on 127.0.0.1:60089
+1534314880495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.X270IBbaRJTR"
+1534314885509	Marionette	INFO	Listening on port 38583
+1534314885524	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534314923734	geckodriver	INFO	geckodriver 0.20.0
+1534314923746	geckodriver	INFO	Listening on 127.0.0.1:34386
+1534314924756	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.np9eGHCpBuGT"
+1534314929932	Marionette	INFO	Listening on port 41292
+1534314929991	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534314960482	geckodriver	INFO	geckodriver 0.20.0
+1534314960493	geckodriver	INFO	Listening on 127.0.0.1:48833
+1534314961502	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uQgELoaDw6gN"
+1534314966531	Marionette	INFO	Listening on port 39999
+1534314966635	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534315045136	geckodriver	INFO	geckodriver 0.20.0
+1534315045148	geckodriver	INFO	Listening on 127.0.0.1:42216
+1534315046156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ENrBzkTVHyFc"
+1534315051097	Marionette	INFO	Listening on port 41881
+1534315051184	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534315081019	geckodriver	INFO	geckodriver 0.20.0
+1534315081032	geckodriver	INFO	Listening on 127.0.0.1:50661
+1534315082042	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.v2fc9JQYrKht"
+1534315087109	Marionette	INFO	Listening on port 41186
+1534315087174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534315121924	geckodriver	INFO	geckodriver 0.20.0
+1534315121935	geckodriver	INFO	Listening on 127.0.0.1:44436
+1534315122942	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VkW1dW2kS2nw"
+1534315127889	Marionette	INFO	Listening on port 41177
+1534315127964	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534315160951	geckodriver	INFO	geckodriver 0.20.0
+1534315160964	geckodriver	INFO	Listening on 127.0.0.1:54181
+1534315161965	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ktczao9zAKBV"
+1534315168108	Marionette	INFO	Listening on port 46024
+1534315168196	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:6601): dconf-WARNING **: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permiso denegado
+[Parent 5889, Gecko_IOThread] WARNING: pipe error (67): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 5682, Gecko_IOThread] WARNING: pipe error (68): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 5328, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 5504, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 6108, Gecko_IOThread] WARNING: pipe error (68): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 6302, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 6528, Gecko_IOThread] WARNING: pipe error (98): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534315494536	geckodriver	INFO	geckodriver 0.20.0
+1534315494544	geckodriver	INFO	Listening on 127.0.0.1:40249
+1534315494642	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fPJBoeRTB8Z1"
+1534315501536	Marionette	INFO	Listening on port 43955
+1534315501598	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534315549192	geckodriver	INFO	geckodriver 0.20.0
+1534315549201	geckodriver	INFO	Listening on 127.0.0.1:46391
+1534315550211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yvHCoLKQVoMh"
+1534315555090	Marionette	INFO	Listening on port 45840
+1534315555159	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 7080, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 6871, Gecko_IOThread] WARNING: pipe error (66): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534315952450	geckodriver	INFO	geckodriver 0.20.0
+1534315952468	geckodriver	INFO	Listening on 127.0.0.1:37789
+1534315953466	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.avoe9IRfItsq"
+1534315958487	Marionette	INFO	Listening on port 43480
+1534315958595	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534316734288	geckodriver	INFO	geckodriver 0.20.0
+1534316734298	geckodriver	INFO	Listening on 127.0.0.1:40579
+1534316735301	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.IUU13Dt7IFAQ"
+1534316740252	Marionette	INFO	Listening on port 40521
+1534316740327	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534316996814	geckodriver	INFO	geckodriver 0.20.0
+1534316996825	geckodriver	INFO	Listening on 127.0.0.1:41072
+1534316997830	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MjqrDVNyEV6u"
+1534317002699	Marionette	INFO	Listening on port 42826
+1534317002753	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534317178296	geckodriver	INFO	geckodriver 0.20.0
+1534317178306	geckodriver	INFO	Listening on 127.0.0.1:46587
+1534317179316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.cPNByqEKC7S7"
+1534317184225	Marionette	INFO	Listening on port 46135
+1534317184239	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534317449957	geckodriver	INFO	geckodriver 0.20.0
+1534317449967	geckodriver	INFO	Listening on 127.0.0.1:45440
+1534317450973	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nxfkzDvsXc5u"
+1534317455885	Marionette	INFO	Listening on port 42498
+1534317455900	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 1: SyntaxError: unexpected token: identifier
+[Parent 8471, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534317494145	geckodriver	INFO	geckodriver 0.20.0
+1534317494155	geckodriver	INFO	Listening on 127.0.0.1:49332
+1534317495161	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FwJDc87DATm6"
+1534317500097	Marionette	INFO	Listening on port 37133
+1534317500183	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 8660, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534323730781	geckodriver	INFO	geckodriver 0.20.0
+1534323730890	geckodriver	INFO	Listening on 127.0.0.1:41442
+1534323731722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.X2c7LPsXLtHr"
+1534323744751	Marionette	INFO	Listening on port 41681
+1534323744782	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10150): dconf-WARNING **: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permiso denegado
+[Parent 10031, Gecko_IOThread] WARNING: pipe error (67): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534323942999	geckodriver	INFO	geckodriver 0.20.0
+1534323943012	geckodriver	INFO	Listening on 127.0.0.1:49781
+1534323944012	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.W0j9emqcppON"
+1534323949009	Marionette	INFO	Listening on port 33647
+1534323949059	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534324007580	geckodriver	INFO	geckodriver 0.20.0
+1534324007592	geckodriver	INFO	Listening on 127.0.0.1:56494
+1534324007608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ka5jqr6cVMrP"
+1534324012539	Marionette	INFO	Listening on port 36993
+1534324012573	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534324126131	geckodriver	INFO	geckodriver 0.20.0
+1534324126143	geckodriver	INFO	Listening on 127.0.0.1:51435
+1534324127150	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PwzilA2Iqd26"
+1534324133310	Marionette	INFO	Listening on port 42805
+1534324133378	Marionette	WARN	TLS certificate errors will be ignored for this session
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nNetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nonStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5\nLine: 1887, column: 0"
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7\nLine: 1887, column: 0"
+[Parent 10338, Gecko_IOThread] WARNING: pipe error (75): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 10524, Gecko_IOThread] WARNING: pipe error (66): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534324740856	geckodriver	INFO	geckodriver 0.20.0
+1534324740866	geckodriver	INFO	Listening on 127.0.0.1:52969
+1534324741871	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8DM6MCKpl8Zm"
+1534324746957	Marionette	INFO	Listening on port 34440
+1534324747007	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534324788487	geckodriver	INFO	geckodriver 0.20.0
+1534324788497	geckodriver	INFO	Listening on 127.0.0.1:34065
+1534324789503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kcrQX3g9Qy50"
+1534324794528	Marionette	INFO	Listening on port 43826
+1534324794624	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534324838156	geckodriver	INFO	geckodriver 0.20.0
+1534324838168	geckodriver	INFO	Listening on 127.0.0.1:57392
+1534324839171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.GWQfUpwgYTGt"
+1534324844420	Marionette	INFO	Listening on port 37203
+1534324844500	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534324988347	geckodriver	INFO	geckodriver 0.20.0
+1534324988357	geckodriver	INFO	Listening on 127.0.0.1:43077
+1534324989361	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RlOjQaVgxsYp"
+1534324994544	Marionette	INFO	Listening on port 35279
+1534324994599	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534325046638	geckodriver	INFO	geckodriver 0.20.0
+1534325046651	geckodriver	INFO	Listening on 127.0.0.1:48583
+1534325047655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.g4iC07C54sCN"
+1534325052817	Marionette	INFO	Listening on port 45261
+1534325052884	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534325215821	geckodriver	INFO	geckodriver 0.20.0
+1534325215832	geckodriver	INFO	Listening on 127.0.0.1:48469
+1534325216832	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XqTcfIXXiwNs"
+1534325222096	Marionette	INFO	Listening on port 34483
+1534325222178	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534325310871	geckodriver	INFO	geckodriver 0.20.0
+1534325310888	geckodriver	INFO	Listening on 127.0.0.1:50217
+1534325311889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.iWNZ44enaxW3"
+1534325317153	Marionette	INFO	Listening on port 42671
+1534325317223	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11121, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 11479, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 11726, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 12131, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 12384, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 10738, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534325910271	geckodriver	INFO	geckodriver 0.20.0
+1534325910280	geckodriver	INFO	Listening on 127.0.0.1:55228
+1534325911287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WfX0wMdEgBrE"
+1534325915965	Marionette	INFO	Listening on port 36539
+1534325916013	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534326019066	geckodriver	INFO	geckodriver 0.20.0
+1534326019081	geckodriver	INFO	Listening on 127.0.0.1:54185
+1534326020082	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.81YbYAYfEIPA"
+1534326025024	Marionette	INFO	Listening on port 46024
+1534326025107	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534326461882	geckodriver	INFO	geckodriver 0.20.0
+1534326461891	geckodriver	INFO	Listening on 127.0.0.1:42950
+1534326462892	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0u7p29a4n7CZ"
+1534326468860	Marionette	INFO	Listening on port 46056
+1534326468942	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534326499477	geckodriver	INFO	geckodriver 0.20.0
+1534326499487	geckodriver	INFO	Listening on 127.0.0.1:37126
+1534326500491	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TPTpSSoC9ckO"
+1534326506758	Marionette	INFO	Listening on port 37800
+1534326506856	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534326577113	geckodriver	INFO	geckodriver 0.20.0
+1534326577135	geckodriver	INFO	Listening on 127.0.0.1:36482
+1534326578138	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.J2OaAiXgP3On"
+1534326583618	Marionette	INFO	Listening on port 44224
+1534326583692	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534326644070	geckodriver	INFO	geckodriver 0.20.0
+1534326644082	geckodriver	INFO	Listening on 127.0.0.1:60341
+1534326645082	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nAP8bhtbfxaE"
+1534326651857	Marionette	INFO	Listening on port 41396
+1534326651949	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534326872701	geckodriver	INFO	geckodriver 0.20.0
+1534326872711	geckodriver	INFO	Listening on 127.0.0.1:47377
+1534326873718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.C7jNfkmYknmC"
+[Parent 13045, Gecko_IOThread] WARNING: pipe error (71): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 12795, Gecko_IOThread] WARNING: pipe error (68): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 13332, Gecko_IOThread] WARNING: pipe error (66): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 13504, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534326881131	Marionette	INFO	Listening on port 37227
+1534326881165	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 13925, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 14192, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534326897307	geckodriver::marionette	ERROR	Failed to stop browser process
+1534326937449	geckodriver	INFO	geckodriver 0.20.0
+1534326937461	geckodriver	INFO	Listening on 127.0.0.1:44839
+1534326938471	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JywtH3qEdE8m"
+1534326943551	Marionette	INFO	Listening on port 40156
+1534326943625	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14427, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534326960116	geckodriver::marionette	ERROR	Failed to stop browser process
+1534327010114	geckodriver	INFO	geckodriver 0.20.0
+1534327010123	geckodriver	INFO	Listening on 127.0.0.1:43786
+1534327011127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BlH31q9gGYer"
+1534327016251	Marionette	INFO	Listening on port 41033
+1534327016353	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534327038324	geckodriver::marionette	ERROR	Failed to stop browser process
+1534327052853	geckodriver	INFO	geckodriver 0.20.0
+1534327052867	geckodriver	INFO	Listening on 127.0.0.1:40301
+1534327053868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TZfGRG633bmF"
+1534327058881	Marionette	INFO	Listening on port 35133
+1534327058900	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14786, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534327080805	geckodriver::marionette	ERROR	Failed to stop browser process
+1534327306755	geckodriver	INFO	geckodriver 0.20.0
+1534327306769	geckodriver	INFO	Listening on 127.0.0.1:33714
+1534327307771	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.AhRnQl7mK5lL"
+1534327313044	Marionette	INFO	Listening on port 35917
+1534327313101	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534327327550	geckodriver::marionette	ERROR	Failed to stop browser process
+1534327388271	geckodriver	INFO	geckodriver 0.20.0
+1534327388283	geckodriver	INFO	Listening on 127.0.0.1:59457
+1534327389284	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Jogxs5kfV96N"
+1534327394579	Marionette	INFO	Listening on port 42090
+1534327394628	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534327425494	geckodriver::marionette	ERROR	Failed to stop browser process
+1534327444306	geckodriver	INFO	geckodriver 0.20.0
+1534327444317	geckodriver	INFO	Listening on 127.0.0.1:47078
+1534327445321	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dvaAdgOpYjMq"
+1534327450655	Marionette	INFO	Listening on port 38062
+1534327450753	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534327470373	geckodriver::marionette	ERROR	Failed to stop browser process
+1534327498497	geckodriver	INFO	geckodriver 0.20.0
+1534327498506	geckodriver	INFO	Listening on 127.0.0.1:54568
+1534327499510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JjZjy43VKgxw"
+1534327504554	Marionette	INFO	Listening on port 36832
+1534327504653	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534327519536	geckodriver::marionette	ERROR	Failed to stop browser process
+1534327917473	geckodriver	INFO	geckodriver 0.20.0
+1534327917483	geckodriver	INFO	Listening on 127.0.0.1:39981
+1534327918491	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MBBAJPKfjG4n"
+1534327923569	Marionette	INFO	Listening on port 33668
+1534327923622	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15825, Gecko_IOThread] WARNING: pipe error (71): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534327946054	geckodriver::marionette	ERROR	Failed to stop browser process
+1534327995021	geckodriver	INFO	geckodriver 0.20.0
+1534327995035	geckodriver	INFO	Listening on 127.0.0.1:43142
+1534327996035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lk3CQ7r1ionn"
+1534328001100	Marionette	INFO	Listening on port 44099
+1534328001169	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 16031, Gecko_IOThread] WARNING: pipe error (70): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534328183159	geckodriver	INFO	geckodriver 0.20.0
+1534328183171	geckodriver	INFO	Listening on 127.0.0.1:47448
+1534328184172	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.A7CfIG307j10"
+1534328189521	Marionette	INFO	Listening on port 41850
+1534328189599	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534328519187	geckodriver	INFO	geckodriver 0.20.0
+1534328519198	geckodriver	INFO	Listening on 127.0.0.1:54378
+1534328520202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.R8k3Hq76Hann"
+1534328526073	Marionette	INFO	Listening on port 45795
+1534328526163	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534328831715	geckodriver	INFO	geckodriver 0.20.0
+1534328831731	geckodriver	INFO	Listening on 127.0.0.1:45693
+1534328832735	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Pkdb9RqesAsM"
+1534328839643	Marionette	INFO	Listening on port 35172
+1534328839750	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:16851): dconf-WARNING **: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permiso denegado
+[Parent 16766, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 16501, Gecko_IOThread] WARNING: pipe error (71): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 16254, Gecko_IOThread] WARNING: pipe error (75): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534330694250	geckodriver	INFO	geckodriver 0.20.0
+1534330694259	geckodriver	INFO	Listening on 127.0.0.1:55507
+1534330695268	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CTw8ycZaai1S"
+1534330700113	Marionette	INFO	Listening on port 38683
+1534330700189	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534330790203	geckodriver	INFO	geckodriver 0.20.0
+1534330790214	geckodriver	INFO	Listening on 127.0.0.1:34583
+1534330791214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9gD0ujhiu2JP"
+1534330796253	Marionette	INFO	Listening on port 44461
+1534330796342	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534330869371	geckodriver	INFO	geckodriver 0.20.0
+1534330869384	geckodriver	INFO	Listening on 127.0.0.1:36452
+1534330870396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZBiMGIq4PkOm"
+1534330875416	Marionette	INFO	Listening on port 43273
+1534330875426	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17781, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 17572, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 17371, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534331111141	geckodriver	INFO	geckodriver 0.20.0
+1534331111154	geckodriver	INFO	Listening on 127.0.0.1:44036
+1534331112158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.X4wKq6LYsqja"
+1534331117541	Marionette	INFO	Listening on port 33112
+1534331117597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534331219072	geckodriver	INFO	geckodriver 0.20.0
+1534331219083	geckodriver	INFO	Listening on 127.0.0.1:33765
+1534331220083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lwGrLj6ygjrW"
+1534331225389	Marionette	INFO	Listening on port 44652
+1534331225434	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 18222, Gecko_IOThread] WARNING: pipe error (71): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534331342973	geckodriver	INFO	geckodriver 0.20.0
+1534331342985	geckodriver	INFO	Listening on 127.0.0.1:60787
+1534331343991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bbBMfYqcZVlQ"
+1534331349108	Marionette	INFO	Listening on port 34575
+1534331349128	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534331483506	geckodriver	INFO	geckodriver 0.20.0
+1534331483514	geckodriver	INFO	Listening on 127.0.0.1:59320
+1534331484517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4TgWLU1ckI9v"
+1534331490535	Marionette	INFO	Listening on port 44824
+1534331490567	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534331660261	geckodriver	INFO	geckodriver 0.20.0
+1534331660276	geckodriver	INFO	Listening on 127.0.0.1:49733
+1534331661283	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.lI1ctwJA0uIY"
+1534331669965	Marionette	INFO	Listening on port 38652
+1534331670152	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/lib/requirejs/require.min.js, line 12: Error: Mismatched anonymous define() module: function(){return sweetAlert}
+http://requirejs.org/docs/errors.html#mismatch
+[Parent 18496, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 18695, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534331834577	geckodriver	INFO	geckodriver 0.20.0
+1534331834593	geckodriver	INFO	Listening on 127.0.0.1:36179
+1534331835596	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.rfHz5zHnhT2t"
+1534331841844	Marionette	INFO	Listening on port 36877
+1534331841967	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&rollup/1534248357/mcore-min.js, line 206: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: chrome://global/content/browser-child.js, line 609: NS_ERROR_ILLEGAL_VALUE: 
+JavaScript error: https://campus.euroinnova.edu.es/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&rollup/1534248357/mcore-min.js, line 206: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://campus.euroinnova.edu.es/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&rollup/1534248357/mcore-min.js, line 206: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://campus.euroinnova.edu.es/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&rollup/1534248357/mcore-min.js, line 206: NS_ERROR_NOT_INITIALIZED: 
+[Parent 18908, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534332016273	geckodriver	INFO	geckodriver 0.20.0
+1534332016284	geckodriver	INFO	Listening on 127.0.0.1:53070
+1534332017290	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.d2k20lpmCQS5"
+1534332023076	Marionette	INFO	Listening on port 35982
+1534332023141	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534332102920	geckodriver	INFO	geckodriver 0.20.0
+1534332102940	geckodriver	INFO	Listening on 127.0.0.1:44128
+1534332103934	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.15jy3SnAGI67"
+1534332109236	Marionette	INFO	Listening on port 33954
+1534332109273	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534332175227	geckodriver	INFO	geckodriver 0.20.0
+1534332175238	geckodriver	INFO	Listening on 127.0.0.1:49858
+1534332176240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BCtOuGmud7RI"
+[Parent 19370, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 19553, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534332182404	Marionette	INFO	Listening on port 38208
+1534332182493	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534332240276	geckodriver	INFO	geckodriver 0.20.0
+1534332240285	geckodriver	INFO	Listening on 127.0.0.1:51690
+1534332241292	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0mGDRc28yvMI"
+1534332246827	Marionette	INFO	Listening on port 37949
+1534332246922	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534332363516	geckodriver	INFO	geckodriver 0.20.0
+1534332363525	geckodriver	INFO	Listening on 127.0.0.1:47332
+1534332364530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gbHY25eJQvRR"
+1534332369806	Marionette	INFO	Listening on port 46700
+1534332369883	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534332548733	geckodriver	INFO	geckodriver 0.20.0
+1534332548745	geckodriver	INFO	Listening on 127.0.0.1:39484
+1534332549748	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.A1TE03uTtTp3"
+1534332556087	Marionette	INFO	Listening on port 37977
+1534332556200	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 20387, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534332726984	geckodriver	INFO	geckodriver 0.20.0
+1534332726997	geckodriver	INFO	Listening on 127.0.0.1:33408
+1534332728001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.xPEusT9thSUG"
+[Parent 19947, Gecko_IOThread] WARNING: pipe error (70): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 20155, Gecko_IOThread] WARNING: pipe error (71): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534332734549	Marionette	INFO	Listening on port 43351
+1534332734650	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534332912556	geckodriver	INFO	geckodriver 0.20.0
+1534332912566	geckodriver	INFO	Listening on 127.0.0.1:48156
+1534332913576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.z8Kr4y2d3nqn"
+1534332918971	Marionette	INFO	Listening on port 45541
+1534332919031	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534333002186	geckodriver	INFO	geckodriver 0.20.0
+1534333002198	geckodriver	INFO	Listening on 127.0.0.1:44042
+1534333003204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.s2mrKq2n43EU"
+1534333009179	Marionette	INFO	Listening on port 34945
+1534333009243	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 21038, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534333122782	geckodriver	INFO	geckodriver 0.20.0
+1534333122796	geckodriver	INFO	Listening on 127.0.0.1:53713
+1534333123802	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.CmMfIJ5Z7KRB"
+1534333129579	Marionette	INFO	Listening on port 34112
+1534333129650	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534333198199	geckodriver	INFO	geckodriver 0.20.0
+1534333198216	geckodriver	INFO	Listening on 127.0.0.1:45004
+1534333199208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.C33AAlqPbAnf"
+1534333207308	Marionette	INFO	Listening on port 45425
+1534333207396	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 20621, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 20836, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 21248, Gecko_IOThread] WARNING: pipe error (64): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 21476, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534333455389	geckodriver	INFO	geckodriver 0.20.0
+1534333455398	geckodriver	INFO	Listening on 127.0.0.1:50400
+1534333455409	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.p8hIXuopb0fK"
+1534333460726	Marionette	INFO	Listening on port 33599
+1534333460834	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534333553018	geckodriver	INFO	geckodriver 0.20.0
+1534333553027	geckodriver	INFO	Listening on 127.0.0.1:49835
+1534333554032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YxUKskvwSnjx"
+1534333559134	Marionette	INFO	Listening on port 42686
+1534333559162	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 22018, Gecko_IOThread] WARNING: pipe error (75): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534333617772	geckodriver	INFO	geckodriver 0.20.0
+1534333617783	geckodriver	INFO	Listening on 127.0.0.1:45846
+1534333618786	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.S5mK891ifof5"
+1534333623693	Marionette	INFO	Listening on port 45534
+1534333623716	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534333700566	geckodriver	INFO	geckodriver 0.20.0
+1534333700577	geckodriver	INFO	Listening on 127.0.0.1:35820
+1534333701582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mCGnP6E9DJqq"
+1534333706524	Marionette	INFO	Listening on port 46122
+1534333706611	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534333749796	geckodriver	INFO	geckodriver 0.20.0
+1534333749806	geckodriver	INFO	Listening on 127.0.0.1:58402
+1534333750811	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.0VpWkF1WOAUx"
+1534333756231	Marionette	INFO	Listening on port 45535
+1534333756244	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534333833176	geckodriver	INFO	geckodriver 0.20.0
+1534333833186	geckodriver	INFO	Listening on 127.0.0.1:57660
+1534333834193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.z1d3h2vCO3he"
+1534333839188	Marionette	INFO	Listening on port 44994
+1534333839226	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534333976712	geckodriver	INFO	geckodriver 0.20.0
+1534333976721	geckodriver	INFO	Listening on 127.0.0.1:49694
+1534333977730	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qJ3xg5LoyQJG"
+1534333983775	Marionette	INFO	Listening on port 41032
+1534333983896	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 23004, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 22209, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 22594, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nNetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nonStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5\nLine: 1887, column: 0"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7\nLine: 1887, column: 0"
+[Parent 22787, Gecko_IOThread] WARNING: pipe error (68): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 21822, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534334114156	geckodriver	INFO	geckodriver 0.20.0
+1534334114165	geckodriver	INFO	Listening on 127.0.0.1:35343
+1534334115174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.sXjAvIyPlVMC"
+1534334120140	Marionette	INFO	Listening on port 36707
+1534334120202	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534334199281	geckodriver	INFO	geckodriver 0.20.0
+1534334199293	geckodriver	INFO	Listening on 127.0.0.1:54837
+1534334200296	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LdrE3sx6l9AA"
+1534334205869	Marionette	INFO	Listening on port 45385
+1534334205928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534334337029	geckodriver	INFO	geckodriver 0.20.0
+1534334337043	geckodriver	INFO	Listening on 127.0.0.1:46517
+1534334338049	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.85wyWtIHxIpg"
+1534334345885	Marionette	INFO	Listening on port 35316
+1534334345950	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534334429988	geckodriver	INFO	geckodriver 0.20.0
+1534334430010	geckodriver	INFO	Listening on 127.0.0.1:37428
+1534334431001	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MPBt7uXxwAl6"
+[Parent 23478, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534334442401	Marionette	INFO	Listening on port 35585
+1534334442646	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534334500114	geckodriver	INFO	geckodriver 0.20.0
+1534334500135	geckodriver	INFO	Listening on 127.0.0.1:41582
+1534334501125	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RZTUQ8MLshUO"
+[Parent 23685, Gecko_IOThread] WARNING: pipe error (64): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534334513012	Marionette	INFO	Listening on port 45137
+1534334513148	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 23281, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534334564062	geckodriver	INFO	geckodriver 0.20.0
+1534334564076	geckodriver	INFO	Listening on 127.0.0.1:51103
+1534334565087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.BVvFUtDrJigG"
+1534334570081	Marionette	INFO	Listening on port 39052
+1534334570132	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 24114, Gecko_IOThread] WARNING: pipe error (68): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 24330, Gecko_IOThread] WARNING: pipe error (73): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534334746793	geckodriver	INFO	geckodriver 0.20.0
+1534334746802	geckodriver	INFO	Listening on 127.0.0.1:45105
+1534334747808	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6Ge1cfhfboeK"
+1534334752573	Marionette	INFO	Listening on port 41608
+1534334752633	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 24565, Gecko_IOThread] WARNING: pipe error (75): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534334976049	geckodriver	INFO	geckodriver 0.20.0
+1534334976060	geckodriver	INFO	Listening on 127.0.0.1:43405
+1534334977073	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.PemqDDBy0JFZ"
+1534334982000	Marionette	INFO	Listening on port 46689
+1534334982093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&rollup/1534248357/mcore-min.js, line 206: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://campus.euroinnova.edu.es/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&rollup/1534248357/mcore-min.js, line 206: NS_ERROR_NOT_INITIALIZED: 
+1534335279103	geckodriver	INFO	geckodriver 0.20.0
+1534335279115	geckodriver	INFO	Listening on 127.0.0.1:60913
+1534335280117	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Z5b8FllRr5Nn"
+1534335285145	Marionette	INFO	Listening on port 44938
+1534335285241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+[Parent 25067, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534335393322	geckodriver	INFO	geckodriver 0.20.0
+1534335393334	geckodriver	INFO	Listening on 127.0.0.1:41599
+1534335394332	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YyjAKVundXz9"
+1534335399333	Marionette	INFO	Listening on port 46067
+1534335399361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534335527075	geckodriver	INFO	geckodriver 0.20.0
+1534335527085	geckodriver	INFO	Listening on 127.0.0.1:52203
+1534335528086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VVzFAcZqucSh"
+1534335534516	Marionette	INFO	Listening on port 33859
+1534335534592	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nNetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nonStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5\nLine: 1887, column: 0"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7\nLine: 1887, column: 0"
+[Parent 25278, Gecko_IOThread] WARNING: pipe error (73): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534336924837	geckodriver	INFO	geckodriver 0.20.0
+1534336924846	geckodriver	INFO	Listening on 127.0.0.1:37311
+1534336925846	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YYbAlExFSmPM"
+1534336930947	Marionette	INFO	Listening on port 36506
+1534336931010	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534337254299	geckodriver	INFO	geckodriver 0.20.0
+1534337254310	geckodriver	INFO	Listening on 127.0.0.1:41195
+1534337255316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5bqfC8rEV5mo"
+1534337261539	Marionette	INFO	Listening on port 44845
+1534337261599	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534337338608	geckodriver	INFO	geckodriver 0.20.0
+1534337338619	geckodriver	INFO	Listening on 127.0.0.1:58694
+1534337339617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oCD8xbg4xLR3"
+1534337348854	Marionette	INFO	Listening on port 42489
+1534337349042	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 26133, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 26319, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534337446896	geckodriver	INFO	geckodriver 0.20.0
+1534337446905	geckodriver	INFO	Listening on 127.0.0.1:47286
+1534337447921	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.o5koMz5BI6Q6"
+1534337453077	Marionette	INFO	Listening on port 46465
+1534337453154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534337568176	geckodriver	INFO	geckodriver 0.20.0
+1534337568193	geckodriver	INFO	Listening on 127.0.0.1:48328
+1534337569198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LqwtDYOKePdO"
+1534337575921	Marionette	INFO	Listening on port 34833
+1534337575974	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nNetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nonStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5\nLine: 1887, column: 0"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7\nLine: 1887, column: 0"
+[Parent 26547, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534337610293	geckodriver	INFO	geckodriver 0.20.0
+1534337610302	geckodriver	INFO	Listening on 127.0.0.1:54965
+1534337611306	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wQAohTNKiVgy"
+1534337616984	Marionette	INFO	Listening on port 33471
+1534337617086	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534337697355	geckodriver	INFO	geckodriver 0.20.0
+1534337697364	geckodriver	INFO	Listening on 127.0.0.1:44733
+1534337698367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.F7VK5CPPxthZ"
+1534337703466	Marionette	INFO	Listening on port 46061
+1534337703497	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534337750647	geckodriver	INFO	geckodriver 0.20.0
+1534337750658	geckodriver	INFO	Listening on 127.0.0.1:55642
+1534337751659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.C5QsmJbON48g"
+1534337756658	Marionette	INFO	Listening on port 42425
+1534337756723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534337821017	geckodriver	INFO	geckodriver 0.20.0
+1534337821027	geckodriver	INFO	Listening on 127.0.0.1:45144
+1534337822031	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.9Q225HWupNM7"
+1534337827505	Marionette	INFO	Listening on port 41521
+1534337827574	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 27483, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+[Parent 27129, Gecko_IOThread] WARNING: pipe error (74): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 26951, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 27314, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534337988551	geckodriver	INFO	geckodriver 0.20.0
+1534337988561	geckodriver	INFO	Listening on 127.0.0.1:33408
+1534337989570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.DeO7ebeUBMgD"
+1534337994650	Marionette	INFO	Listening on port 38888
+1534337994714	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534338083225	geckodriver	INFO	geckodriver 0.20.0
+1534338083239	geckodriver	INFO	Listening on 127.0.0.1:36173
+1534338084242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8fbh4s5pJ1wb"
+1534338090629	Marionette	INFO	Listening on port 32836
+1534338090700	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 25: NS_ERROR_NOT_INITIALIZED: 
+1534338101512	Marionette	ERROR	No reply from Marionette:Register
+JavaScript error: chrome://marionette/content/listener.js, line 464: TypeError: reply[0] is undefined
+1534338106852	geckodriver	INFO	geckodriver 0.20.0
+1534338106867	geckodriver	INFO	Listening on 127.0.0.1:58177
+1534338107869	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.dk6N9GirKVvK"
+1534338114876	Marionette	INFO	Listening on port 34601
+1534338114952	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 27712, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+onStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nNetworkResponseListener.prototype._getSecurityInfo<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:518:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nonStartRequest@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:438:5\nLine: 1887, column: 0"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component not initialized"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5
+onStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7
+onInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7
+Line: 1887, column: 0
+console.error: "Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... \"Component not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1887\"  data: no]\nStack: NetworkEventActorProxy.methodFactory/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1887:5\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\n_onComplete@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:663:5\nonStreamClose@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:612:7\nonInputStreamReady@resource://devtools/shared/base-loader.js -> resource://devtools/shared/webconsole/network-monitor.js:714:7\nLine: 1887, column: 0"
+[Parent 28144, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534338445777	geckodriver	INFO	geckodriver 0.20.0
+1534338445789	geckodriver	INFO	Listening on 127.0.0.1:34310
+1534338446798	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.zI2MJ0xexGFp"
+1534338452253	Marionette	INFO	Listening on port 33411
+1534338452355	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+1534338564934	geckodriver	INFO	geckodriver 0.20.0
+1534338564951	geckodriver	INFO	Listening on 127.0.0.1:48686
+1534338565948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.bfs5pOtj1vU5"
+1534338572515	Marionette	INFO	Listening on port 33225
+1534338572540	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/lib/requirejs/require.min.js, line 12: Error: Mismatched anonymous define() module: function(){return sweetAlert}
+http://requirejs.org/docs/errors.html#mismatch
+[Parent 28433, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 28676, Gecko_IOThread] WARNING: pipe error (65): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534338917671	geckodriver	INFO	geckodriver 0.20.0
+1534338917683	geckodriver	INFO	Listening on 127.0.0.1:33091
+1534338918687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.MgvEGHDYKmEr"
+1534338923743	Marionette	INFO	Listening on port 45547
+1534338923827	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/request.js, line 2: InvalidStateError: XMLHttpRequest has an invalid context.
+1534339557410	geckodriver	INFO	geckodriver 0.20.0
+1534339557425	geckodriver	INFO	Listening on 127.0.0.1:34891
+1534339558428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RauFHxqjNmrd"
+1534339564595	Marionette	INFO	Listening on port 43975
+1534339564714	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534340050005	geckodriver	INFO	geckodriver 0.20.0
+1534340050016	geckodriver	INFO	Listening on 127.0.0.1:46109
+1534340051024	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.evRyrxC9pUFF"
+1534340058422	Marionette	INFO	Listening on port 41797
+1534340058508	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 28926, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 29275, Gecko_IOThread] WARNING: pipe error (62): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1534340099347	geckodriver	INFO	geckodriver 0.20.0
+1534340099359	geckodriver	INFO	Listening on 127.0.0.1:54130
+1534340100359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.1awhdqYKvPCJ"
+1534340105627	Marionette	INFO	Listening on port 34111
+1534340105709	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1534340208049	geckodriver::marionette	ERROR	Failed to stop browser process
+1534340654848	geckodriver	INFO	geckodriver 0.20.0
+1534340654858	geckodriver	INFO	Listening on 127.0.0.1:60476
+1534340655868	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.jmz2auOn2wYV"
+1534340660853	Marionette	INFO	Listening on port 38573
+1534340660902	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+[Child 30102, Chrome_ChildThread] WARNING: pipe error (21): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534341384947	geckodriver	INFO	geckodriver 0.20.0
+1534341384959	geckodriver	INFO	Listening on 127.0.0.1:41683
+1534341385960	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.XnbwesI53Gv7"
+1534341391731	Marionette	INFO	Listening on port 38518
+1534341391800	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+[Child 30420, Chrome_ChildThread] WARNING: pipe error (22): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 30420, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534341521549	geckodriver	INFO	geckodriver 0.20.0
+1534341521563	geckodriver	INFO	Listening on 127.0.0.1:56245
+1534341522570	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gEkXmS3FLRny"
+1534341527824	Marionette	INFO	Listening on port 34267
+1534341527904	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+[Child 30677, Chrome_ChildThread] WARNING: pipe error (20): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534341609931	geckodriver	INFO	geckodriver 0.20.0
+1534341609944	geckodriver	INFO	Listening on 127.0.0.1:42933
+1534341610949	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nkTuN3l2upvP"
+1534341616145	Marionette	INFO	Listening on port 45744
+1534341616185	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+[Child 30866, Chrome_ChildThread] WARNING: pipe error (18): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534341745490	geckodriver	INFO	geckodriver 0.20.0
+1534341745505	geckodriver	INFO	Listening on 127.0.0.1:52674
+1534341746507	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.4PfJ4DoMe1uh"
+1534341751807	Marionette	INFO	Listening on port 41637
+1534341751874	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534341778073	geckodriver	INFO	geckodriver 0.20.0
+1534341778083	geckodriver	INFO	Listening on 127.0.0.1:54140
+1534341779091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.opxUX0A7ENXY"
+1534341784745	Marionette	INFO	Listening on port 42270
+1534341784821	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+1534341917040	geckodriver::marionette	ERROR	Failed to stop browser process
+1534342776597	geckodriver	INFO	geckodriver 0.20.0
+1534342776610	geckodriver	INFO	Listening on 127.0.0.1:57742
+1534342777614	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qbp0EnVMmoik"
+1534342782614	Marionette	INFO	Listening on port 42151
+1534342782636	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+[Child 31889, Chrome_ChildThread] WARNING: pipe error (20): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 31889, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534343339879	geckodriver	INFO	geckodriver 0.20.0
+1534343339893	geckodriver	INFO	Listening on 127.0.0.1:37829
+1534343340898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.svy2zXTCwGNB"
+1534343345754	Marionette	INFO	Listening on port 41400
+1534343345824	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&rollup/1534248357/mcore-min.js, line 206: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://campus.euroinnova.edu.es/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js&rollup/1534248357/mcore-min.js, line 206: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x49000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1534363509094	geckodriver::marionette	ERROR	Failed to stop browser process
+1534363527533	geckodriver	INFO	geckodriver 0.20.0
+1534363527543	geckodriver	INFO	Listening on 127.0.0.1:43332
+1534363527565	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.aE6HYjVHvPf9"
+1534363537873	Marionette	INFO	Listening on port 41698
+1534363537931	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+[Parent 5544, Gecko_IOThread] WARNING: pipe error (66): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

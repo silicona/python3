@@ -38,6 +38,7 @@ print('yield 	def 	finally 		in 			print')
 
 # Indentacion
 print( "\nINDENTACION - Clase Rectangulo" )
+
 class Blob:
 
 	def __init__( self, ancho, alto, *_ ):	# Con *_, ignora los argumentos que exceden a los parametros
@@ -55,6 +56,7 @@ class Rectangulo(Blob):
 
 			try:
 				raise ValueError("Has perdido, humano")
+
 			except ValueError as error:
 				print( "\tCazado rect_1: " + str(error) )
 
@@ -83,7 +85,9 @@ rect_2 = Rectangulo( 4, 2)
 
 
 print( "\nSímbolos" )
+
 print( "\t''=	+=	-=	*=	/=	**=	//=''" )
+
 
 print( "\nTipo de dato")
 
@@ -94,7 +98,9 @@ print( "bool - Booleanos: True - False" )
 print( "str - Cadena: 'Adios, cruel humano'" )
 print( "None - Valor none" )
 
+
 print( "\nFunciones de tipo de dato" )
+
 print( "type() - tipo de dato de una variable" )
 print( "str() - Transforma en cadena, si es posible" )
 print( "int() - Transforma en entero, si es posible (complex no)" )
@@ -105,6 +111,7 @@ print( "eval() - Evalúa un objeto str como si fuera una expresión, no un strin
 print( "upper() / lower() / capitalize() - Caracteres de str en mayusculas / minusculas / prim mayuscula" )
 
 print( "\nTipo de dato secuencial" )
+
 print( "Strings - Cadena" )
 print( "list - Array numerico: [5, 7, 9, 'Sergio', 45.3] (Anidacion del mismo tipo)" )
 print( "tuple - Array numerico inmutable: (5, 7, 9, 'Sergio', 45.3) (Posibles keys de Diccionarios)" )
@@ -112,7 +119,9 @@ print( "range - Array numerico: [5, 7, 9, 'Sergio', 45.3]" )
 print( "set - Conjunto no ordenado de elementos unicos: set('abracadabra')" )
 print( "diccionario - Array con clave y valor: {'a': 1, 'b': 2, 'c': 3, 'd': 4}" )
 
+
 print( "\nFunciones de tipo de dato secuencial" )
+
 print( "len() - Devuelve la longitud de un str o list: len('Python es grande') -> ", len('Python es grande') )
 arr = ['Python', 'es','grande']
 arr.sort()
@@ -129,7 +138,6 @@ print( "- | & ^ - Comparaciones entre sets" )
 print( "dict() - Crea un dict con los argumentos" )
 print( "zip() - Crea un dict con dos elementos iterables" )
 print( "keys() - Crea un list con las claves de un dict" )
-
 
 
 print( "\nOperadores" )
@@ -150,7 +158,7 @@ print(" >/<	-> Mayor / menor")
 print(" >=/<= -> Igualdad o mayor / menor")
 
 
-print( "\nGuión bajo (_) en Python3 comentado" )
+print( "\nGuión bajo (_) en Python3 - Parte de teoria comentada" )
 '''
 # GUIÓN BAJO (_) HACE REFERENCIA A LA ÚLTIMA VARIABLE
 
@@ -173,7 +181,7 @@ for _ in range(10):	-> Ignora el index
 '''
 # DOBLE GUIÓN BAJO (_) ANTEPONE EL NOMBRE DE CLASE EN LA FUUNCION - NO CONFLICTOS
 
-class _Base:	# Clase privada
+class _GuionBajo:	# Clase privada
 
 	_factor_oculto = 2	# Variable privada
 
@@ -181,9 +189,19 @@ class _Base:	# Clase privada
 
 		self.precio = precio
 
+print( "\nClase GuionBajo.precio: ", _GuionBajo(24).precio )
+try:
+	a = _GuionBajo(24)
+	print( a )
+	print( "factor oculto: ", a._factor_oculto )
+
+except Exception as error:
+	print( "\tCazada: ", type(error) )
+
+
+print( "\nRANDOM - Azar en juego:")
 
 import random
-print( "\nAzar en juego:")
 
 a = random.randrange( 10 )
 print('En una escala del 0 al 10, tu atracción por la Tierra es:')
@@ -196,6 +214,11 @@ else:
 	texto = "\tNo aciertas ni una. ¿Realmente sabes porque cayó la manzana de Newton?"
 
 print( texto )
+
+print( 'Con randint() se incluye el último numero del rango: ', random.randint(1, 5) )
+print( "Randint(1): ", random.randint(0, 1) )
+
+
 
 # BUCLES
 print( "\nBUCLES" )
@@ -228,6 +251,8 @@ print( "\nMetodos de Medias" )
 
 def escribe_med():
 
+	# global a
+	# global b
 	media = ( a + b ) / 2
 
 	print( "\tLa media de {:d} y {:d} es: {:f}" . format(a, b, media) )
@@ -237,8 +262,6 @@ def escribe_med():
 
 def escribe_media(a, b) :
 
-	# global a
-	# global b
 
 	media = ( a + b ) / 2
 
@@ -260,18 +283,73 @@ def cambia(b):
 
 a, b = [3], [4]
 
-cambia(a)
+cambia( a )
 print( a )
 
+
 # EXCEPCIONES
-print( "\nExcepciones" )
+print( "\nEXCEPCIONES" )
+
+print( "Enlace: https://docs.python.org/3/library/exceptions.html" )
+
+print( "BaseException: Clase de la que heredan todas las excepciones." )
+print( "Exception(BaseException): Super clase de todas las excepciones que no sean de salida." )
+print( "GeneratorExit(Exception): Se pide que se salga de un generador." )
+print( "StandarError(Exception): Clase base para todas las excepciones que no tengan que ver con salir del intérprete." )
+print( "ArithmeticError(StandardError): Clase base para los errores aritméticos." )
+print( "FloatingPointError(ArithmeticError): Error en una operación de coma flotante." )
+print( "OverflowError(ArithmeticError): Resultado demasiado grande para poder representarse." )
+print( "ZeroDivisionError(ArithmeticError): Lanzada cuando el segundo argumento de una operación de división o módulo era 0" )
+print( "AssertionError(StandardError): Falló la condición de un estamento assert." )
+print( "AttributeError(StandardError): No se encontró el atributo." )
+print( "EOFError(StandardError): Se intentó leer más allá del final de fichero." )
+print( "EnvironmentError(StandardError): Clase padre de los errores relacionados con la entrada/salida." )
+print( "IOError(EnvironmentError): Error en una operación de entrada/salida." )
+print( "OSError(EnvironmentError): Error en una llamada a sistema." )
+print( "WindowsError(OSError): Error en una llamada a sistema en Windows." )
+print( "ImportError(StandardError): No se encuentra el módulo o el elemento del módulo que se quería importar." )
+print( "LookupError(StandardError): Clase padre de los errores de acceso." )
+print( "IndexError(LookupError): El índice de la secuencia está fuera del rango posible." )
+print( "KeyError(LookupError): La clave no existe." )
+print( "MemoryError(StandardError): No queda memoria suficiente." )
+print( "NameError(StandardError): No se encontró ningún elemento con ese nombre." )
+print( "UnboundLocalError(NameError): El nombre no está asociado a ninguna variable." )
+print( "ReferenceError(StandardError): El objeto no tiene ninguna referencia fuerte apuntando hacia él." )
+print( "RuntimeError(StandardError): Error en tiempo de ejecución no especificado." )
+print( "NotImplementedError(RuntimeError): Ese método o función no está implementado." )
+print( "SyntaxError(StandardError): Clase padre para los errores sintácticos." )
+print( "IndentationError(SyntaxError): Error en la indentación del archivo." )
+print( "TabError(IndentationError): Error debido a la mezcla de espacios y tabuladores." )
+print( "SystemError(StandardError): Error interno del intérprete." )
+print( "TypeError(StandardError): Tipo de argumento no apropiado." )
+print( "ValueError(StandardError): Valor del argumento no apropiado." )
+print( "UnicodeError(ValueError): Clase padre para los errores relacionados con unicode." )
+print( "UnicodeDecodeError(UnicodeError): Error de decodificación unicode." )
+print( "UnicodeEncodeError(UnicodeError): Error de codificación unicode." )
+print( "UnicodeTranslateError(UnicodeError): Error de traducción unicode." )
+print( "StopIteration(Exception): Se utiliza para indicar el final del iterador." )
+print( "Warning(Exception): Clase padre para los avisos." )
+print( "DeprecationWarning(Warning): Clase padre para avisos sobre características obsoletas." )
+print( "FutureWarning(Warning): Aviso. La semántica de la construcción cambiará en un futuro." )
+print( "ImportWarning(Warning): Aviso sobre posibles errores a la hora de importar." )
+print( "PendingDeprecationWarning(Warning): Aviso" )
+
+import sys
 
 dividendo = 5
 divisor = 0
 try:
 	cociente = dividendo / divisor
 except:
-	print( "\nExcepción capturada, enclenque humano." )
+	print( "\tExcepción capturada, enclenque humano.\n" )
+
+	tuple_sistema = sys.exc_info()
+	print( "\tTuple del sistema: ", tuple_sistema )
+
+	print( "\tTuple del sistema como str: ", ', '.join(str(i) for i in tuple_sistema) )
+	
+	print( "\tMensaje en tuple_sistema[1]: ", tuple_sistema[1].args[0] )
+
 
 def divide( x, y ):
 
@@ -280,7 +358,7 @@ def divide( x, y ):
 		resultado = x / y
 	
 	except ZeroDivisionError as e:
-		print( "\tHas intentado dividir por cero, humano. Mal hecho...", str(e) )
+		print( "\tHas intentado dividir por cero, humano. Mal hecho...", e )
 	
 	else:
 		print( "\tEl resultado es ", resultado )
@@ -289,7 +367,9 @@ def divide( x, y ):
 
 		print( '\t\tEjecutando clausula Finally' )
 
+
 divide( 2, 0 )
+
 
 # EXCEPCION A MEDIDA - Clase a partir de Exception y ser llamada con raise
 class PassLargo( Exception ):
@@ -314,7 +394,9 @@ else:
 
 	print( "\tSin error en la contraseña, terco humano.")
 
+
 print("\nFACTORIAL")
+
 def factorial(n):
 
 	'''
