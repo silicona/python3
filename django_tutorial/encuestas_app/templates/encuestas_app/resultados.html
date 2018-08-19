@@ -1,4 +1,12 @@
 
-<h2>Estás viendo los resultados de la pregunta {{ pregunta.id }}.</h2>
+<h1>Resultados de la pregunta {{ pregunta.id }}.</h1>
 
-{{ pregunta }}
+<ul>
+{% for eleccion in pregunta.eleccion_set.all %}
+	<li>{{ eleccion.eleccion_texto }} -- {{ eleccion.votos }} voto{{ eleccion.votos|pluralize }}</li>
+{% endfor %}
+</ul>
+
+<a href="{% url 'encuestas:detalle' pregunta.id %}">¿Votar otra vez?</a><br>
+<a href="{% url 'encuestas:index' %}">Volver a las Preguntas</a><br>
+<a href="/">Volver a Inicio</a>

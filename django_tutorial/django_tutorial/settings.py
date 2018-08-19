@@ -25,7 +25,12 @@ SECRET_KEY = '9dkh53o40no7imutcx7$goj%j0nb+2mf2m#=!f=027@thhwvtb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    # Si hay un host aqui, hay que añadir localhost para local
+    'localhost',
+    # Añadir para utilizar el Client() de shell para test
+    'testserver'
+]
 
 
 # Application definition
@@ -38,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'encuestas_app',
+    'blog',
 ]
 
 MIDDLEWARE = [
@@ -73,6 +79,7 @@ WSGI_APPLICATION = 'django_tutorial.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
+# El usuario debe tener todos los privilegios en la BBDD, para realizar los tests completamente
 
 DATABASES = {
     'default': {
@@ -83,7 +90,10 @@ DATABASES = {
         'USER': 'usuario',
         'PASSWORD': 'pass',
         'HOST': 'localhost',
-    }
+        'TEST': {
+            'NAME': 'django_app_bbdd_test',     # Por defecto, con test_ como prefijo
+        }
+    },
 }
 
 
@@ -109,7 +119,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es'
+# LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
@@ -124,3 +135,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join( BASE_DIR, "static" ),
+]
+
+LOGIN_URL = '/blog/'    # Url base para el decorador @login_required
+
+LOGIN_REDIRECT_URL = "/blog/"
+LOGOUT_REDIRECT_URL = "/blog/"

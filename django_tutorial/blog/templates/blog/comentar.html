@@ -1,0 +1,18 @@
+
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+	<h2>Nuevo comentario</h2>
+
+	<form method="POST" class="post-form clearfix">
+
+		{% csrf_token %}
+
+		{{ form.as_p }}
+
+		<button type="submit" class="save btn btn-success">Enviar</button>
+
+	</form>
+
+{% endblock %}

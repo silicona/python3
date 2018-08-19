@@ -1,0 +1,57 @@
+body .page-header {
+  background-color: #ff9400;
+  margin: 0;
+  padding: 20px 20px 20px 40px; }
+  body .page-header h1 a, body .page-header h1 a:visited, body .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 36pt;
+    text-decoration: none;
+    font-family: 'Lobster', cursive; }
+body .content {
+  margin-left: 40px;
+  padding-top: 30px; }
+  body .content h2, body .content h3, body .content h4 {
+    font-family: 'Lobster', cursive; }
+  body .content .post {
+    margin: 20px 0 50px; }
+    body .content .post boton_blog_detalle {
+      margin-left: 1ex; }
+    body .content .post .fecha {
+      float: right;
+      color: #828282; }
+    body .content .post h2 a, body .content .post h2 a:visited {
+      color: #000000; }
+    body .content .post .comentario {
+      margin: 20px 0px 20px 30px;
+      padding: 1ex;
+      border-radius: 15px;
+      background-color: #77FF77; }
+      body .content .post .comentario .fecha {
+        text-align: right;
+        padding: .5ex;
+        background-color: #EEEEEE;
+        border-radius: 10px; }
+  body .content .post-form {
+    margin: 20px 0 50px;
+    /*
+    .save { 
+    	float: right;
+    }
+    */ }
+    body .content .post-form textarea, body .content .post-form input {
+      width: 100%; }
+body footer {
+  padding: 1ex;
+  border-top: 2px solid #000;
+  border-radius: 10px; }
+
+/*
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+*/
+
+/*# sourceMappingURL=blog_estilo.css.map */

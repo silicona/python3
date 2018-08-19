@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from . import views
 # from django.conf.urls import url
 
 urlpatterns = [
-	path( 'encuestas/', include(('encuestas_app.urls', 'encuestas'),namespace= 'encuestas') ),	# Espacio de nombres
+    path( '', views.saludo ),   # Pagina de Inicio
     path( 'admin/', admin.site.urls ),
+    path( 'encuestas/', include(('encuestas_app.urls', 'encuestas'),namespace = 'encuestas') ), # Espacio de nombres
+    path( 'blog/', include(('blog.urls', 'blog'), namespace = 'blog') ), # Espacio de nombres
 ]

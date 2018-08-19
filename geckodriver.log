@@ -1824,3 +1824,187 @@ JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms
 JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
 JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
 [Parent 5544, Gecko_IOThread] WARNING: pipe error (66): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534580930274	geckodriver	INFO	geckodriver 0.20.0
+1534580930405	geckodriver	INFO	Listening on 127.0.0.1:55349
+1534580931173	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.WfRdio0SuVro"
+1534580937795	Marionette	INFO	Listening on port 45201
+1534580937899	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+1534601205741	geckodriver::marionette	ERROR	Failed to stop browser process
+1534601238158	geckodriver	INFO	geckodriver 0.20.0
+1534601238172	geckodriver	INFO	Listening on 127.0.0.1:53766
+1534601239195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.gDN5ElB4AUM4"
+1534601245359	Marionette	INFO	Listening on port 37938
+1534601245430	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+[Parent 18247, Gecko_IOThread] WARNING: pipe error (55): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534618769180	geckodriver	INFO	geckodriver 0.20.0
+1534618769189	geckodriver	INFO	Listening on 127.0.0.1:37398
+1534618770203	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kZMf35Niz87o"
+1534618775525	Marionette	INFO	Listening on port 35937
+1534618775534	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+1534639112959	geckodriver::marionette	ERROR	Failed to stop browser process
+1534662344555	geckodriver	INFO	geckodriver 0.20.0
+1534662344686	geckodriver	INFO	Listening on 127.0.0.1:38443
+1534662345462	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3PgpiarZUh0a"
+1534662352165	Marionette	INFO	Listening on port 43455
+1534662352200	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+1534682480243	geckodriver::marionette	ERROR	Failed to stop browser process
+1534683502579	geckodriver	INFO	geckodriver 0.20.0
+1534683502587	geckodriver	INFO	Listening on 127.0.0.1:36308
+1534683503634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6NyW6oEQD50o"
+1534683511463	Marionette	INFO	Listening on port 39702
+1534683511493	Marionette	WARN	TLS certificate errors will be ignored for this session
+1534685107540	geckodriver	INFO	geckodriver 0.20.0
+1534685107550	geckodriver	INFO	Listening on 127.0.0.1:45262
+1534685108556	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.A7wdRNgwMIS8"
+1534685113438	Marionette	INFO	Listening on port 37131
+1534685113491	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10499, Gecko_IOThread] WARNING: pipe error (75): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534506017/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534506017/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1534705294340	geckodriver::marionette	ERROR	Failed to stop browser process

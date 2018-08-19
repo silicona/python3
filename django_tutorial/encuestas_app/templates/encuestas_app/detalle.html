@@ -3,8 +3,23 @@
 
 <h2>{{ pregunta.pregunta_texto }}</h2>
 
+<!-- 
 <ul>
 {% for eleccion in pregunta.eleccion_set.all %}
 	<li>{{ eleccion.eleccion_texto }}</li>
 {% endfor %}
 </ul>
+-->
+
+{% if mensaje_error %}
+	<p><strong>{{ mensaje_error }}</strong></p>
+{% endif %}
+
+<form action="{% url 'encuestas:votar' pregunta.id %}" method="post">
+{% csrf_token %}
+{% for eleccion in pregunta.eleccion_set.all %}
+    <input type="radio" name="eleccion" id="eleccion{{ forloop.counter }}" value="{{ eleccion.id }}" />
+    <label for="eleccion{{ forloop.counter }}">{{ eleccion.eleccion_texto }}</label><br />
+{% endfor %}
+<input type="submit" value="Votar" />
+</form>

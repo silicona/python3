@@ -4,6 +4,8 @@ from django.db import models
 from django.utils import timezone
 
 # Create your models here.
+# Doc: https://docs.djangoproject.com/en/2.1/ref/models/fields/#field-types
+
 class Pregunta( models.Model ):
 
 	pregunta_texto = models.CharField( max_length = 200 )
@@ -16,7 +18,12 @@ class Pregunta( models.Model ):
 
 	def recien_publicada(self):
 
-		return self.f_pub >= timezone.now() - datetime.timedelta( days = 1 )
+		# Corregido desde tests.py
+		# return self.f_pub >= timezone.now() - datetime.timedelta( days = 1 )
+
+		ahora = timezone.now()
+		# Devuelve False si la fecha es futura o tiene más de un día
+		return ahora - datetime.timedelta( days = 1 ) <= self.f_pub <= ahora
 
 	# Modificaciones en la vista de Admin (encuestas_app/admin.py)
 	recien_publicada.admin_order_field = 'f_pub'		

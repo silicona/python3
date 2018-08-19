@@ -1,0 +1,20 @@
+
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+	<h2>{{ titulo }}</h2>
+
+	<form method="POST" class="post-form clearfix">
+
+		{% csrf_token %}
+
+		{{ form.as_p }}
+
+		<div class="col-sm-6 offset-sm-3">
+			<button type="submit" class="save btn btn-success btn-block">Guardar</button>
+		</div>
+
+	</form>
+
+{% endblock %}

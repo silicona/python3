@@ -1,0 +1,88 @@
+
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+	<div class="post">
+		
+		<div class="fecha">
+				
+			{% if post.f_pub %}
+			
+				<span>Publicada en: {{ post.f_pub|date }}</span>
+
+			{% else %}
+
+				{% if user.id == post.autor.id %}
+
+					<a href="{% url 'blog:publicar_post' pk=post.pk %}" class="btn btn-success btn_blog_detalle">Publicar</a>
+
+				{% else %}
+				
+					<span>Sin publicar</span>
+
+				{% endif %}
+
+			{% endif %}
+
+
+			{% if user.id == post.autor.id %}
+
+				<a href="{% url 'blog:editar' pk=post.pk %}" class="btn btn-primary btn_blog_detalle"><i class="fa fa-pencil-alt"></i></a>
+
+				<a href="{% url 'blog:borrar' pk=post.pk %}" class="btn btn-danger btn_blog_detalle"><i class="fa fa-trash"></i></a>
+
+			{% endif %}
+
+		</div>
+
+		<h2>{{ post.titulo }}</h2>
+
+		<p>{{ post.texto|linebreaksbr }}</p>
+
+		<a href="{% url 'blog:comentar' pk=post.pk %}" class="btn btn-success">Haz un comentario</a>
+
+		{% for comentario in post.comentarios.all %}
+
+			{% if user.is_authenticated or comentario.aprobado %}
+
+			<div class="comentario clearfix">
+				
+				<p>{{ comentario.texto|linebreaksbr }}</p>
+
+				<div class="fecha">
+			
+					{{ comentario.f_alta|date }}
+			
+					{% if not comentario.aprobado and user.id == post.autor.id %}
+
+						<a href="{% url 'blog:aprobar_comentario' pk=comentario.pk %}" class="btn btn-success">
+							<i class="fa fa-thumbs-up"></i>
+						</a>
+
+						<a href="{% url 'blog:rechazar_comentario' pk=comentario.pk %}" class="btn btn-danger">
+							<i class="fa fa-thumbs-down"></i>
+						</a>
+
+					{% endif %}
+					
+					<br>
+
+					<span class="">Comentado por <b>{{ comentario.autor }}</b></span>
+
+				</div>
+
+			</div>
+
+			{% endif %}
+
+		{% empty %}
+
+			<p>No hay comentarios todavia. :(</p>
+
+		{% endfor %}
+
+	</div>
+
+{% endblock %}
+

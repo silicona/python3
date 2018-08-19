@@ -1,0 +1,22 @@
+
+{% extends 'blog/base.html' %}
+
+{% block content %}
+
+	{% for post in posts %}
+
+	<div class="post">
+
+		<p class="fecha">Publicada: {{ post.f_pub }}</p>
+
+		<h2><a href="{% url 'blog:detalle' pk=post.pk %}">{{ post.titulo }}</a></h2>
+
+		<p>{{ post.texto | linebreaksbr }}</p>
+
+		<p>Comentarios: {{ post.comentarios_aprobados.count }}</p>
+
+	</div>
+
+	{% endfor %}
+
+{% endblock %}
