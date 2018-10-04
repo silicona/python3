@@ -1,0 +1,25 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'encuestas_app/encuestas_app_estilo.css' %}">
+
+
+<h1>Encuestas</h1>
+
+<p>Hola, cacho de carne. Has llegado al index de las encuestas.<br><span id="imagen_fondo"></span></p>
+<!-- <p>Hola, {{ nombre }}. Has llegado al index de las encuestas.</p> -->
+
+<div>
+	<a href="/">Ir a Inicio</a><br>
+	<!-- <a href="Rosebac">Vista de Encuestas de Rosebac</a> -->
+</div>
+
+
+{% if lista_ultimas_preguntas %}
+    <ul>
+    {% for pregunta in lista_ultimas_preguntas %}
+        <li><a href="{% url 'encuestas:detalle' pregunta.id %}">{{ pregunta.pregunta_texto }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>¡No hay preguntas disponibles, simio babeante!</p>
+{% endif %}

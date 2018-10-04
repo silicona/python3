@@ -1,0 +1,5 @@
+[client]
+database = django_app_bbdd
+user = usuario
+password = pass
+dafault-charset-set = utf8
