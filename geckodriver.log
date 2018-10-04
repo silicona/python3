@@ -1824,3 +1824,25 @@ JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms
 JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
 JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
 [Parent 5544, Gecko_IOThread] WARNING: pipe error (66): Conexión reinicializada por la máquina remota: file /build/firefox-mWstsA/firefox-61.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1534402337750	geckodriver	INFO	geckodriver 0.20.1
+1534402337766	geckodriver	INFO	Listening on 127.0.0.1:54758
+1534402340886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Oclem1\\AppData\\Local\\Temp\\rust_mozprofile.23vd0deCALZS"
+1534402344785	Marionette	INFO	Listening on port 54767
+1534402345154	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Oclem1\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://campus.euroinnova.edu.es/theme/javascript.php/educalms/1534248357/head, line 140: TypeError: e is undefined
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+JavaScript error: https://campus.euroinnova.edu.es/lib/javascript.php/1534248357/mod/scorm/module.js, line 2: TypeError: el_new_tree.firstChild is null
+Unable to read VR Path Registry from C:\Users\Oclem1\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 9484, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Oclem1\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 3928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Oclem1\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8356, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
