@@ -11,17 +11,16 @@ import config
 @capture
 def before_all(context):
     # Add fake factory
-    # context.fake = faker.Faker()
+    context.fake = faker.Faker()
 
-    # # Add logging
-    # context.config.setup_logging()
+    # Add logging
+    context.config.setup_logging()
 
-    # # Add base url from config
-    # context.base_url = config.url
+    # Add base url from config
+    context.base_url = config.url
 
-    # # Dir to output test artifacts
-    # context.artifacts_dir = 'artifacts'
-    pass
+    # Dir to output test artifacts
+    context.artifacts_dir = 'artifacts'
 
 @capture
 def before_scenario(context, scenario):
@@ -33,13 +32,13 @@ def before_scenario(context, scenario):
 @capture
 def after_scenario(context, scenario):
     # Take screenshot if scenario fails
-    # if scenario.status == 'failed':
-    #     scenario_error_dir = os.path.join(context.artifacts_dir, 'feature_errors')
-    #     make_dir(scenario_error_dir)
-    #     scenario_file_path = os.path.join(scenario_error_dir, scenario.feature.name.replace(' ', '_')
-    #                                       + '_' + time.strftime("%H%M%S_%d_%m_%Y")
-    #                                       + '.jpg')
-    #     context.browser.driver.save_screenshot(scenario_file_path)
+    if scenario.status == 'failed':
+        scenario_error_dir = os.path.join(context.artifacts_dir, 'feature_errors')
+        make_dir(scenario_error_dir)
+        scenario_file_path = os.path.join(scenario_error_dir, scenario.feature.name.replace(' ', '_')
+                                          + '_' + time.strftime("%H%M%S_%d_%m_%Y")
+                                          + '.jpg')
+        context.browser.driver.save_screenshot(scenario_file_path)
 
     context.browser.quit()
 

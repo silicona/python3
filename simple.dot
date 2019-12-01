@@ -1,0 +1,24 @@
+strict graph "" {
+	graph [label="Label de Prueba",
+		penwidth=3.0
+	];
+	node [shape=circle];
+	edge [color=red];
+	subgraph Sub1 {
+		graph [color=red,
+			rank=same
+		];
+		2;
+		B;
+		K;
+	}
+	Solo	[shape=box];
+	1 -- 2	[color=""];
+	1 -- 3	[color=green];
+	2 -- 3	[color=blue];
+	B -- C	[color=grey];
+	D;
+	H -- J	[color=""];
+	J -- K	[color=""];
+	K -- H	[color=""];
+}

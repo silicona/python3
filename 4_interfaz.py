@@ -16,7 +16,7 @@ import wx
 
 Añade la ruta si no está bien instalado
 import sys
-sys.path.append('C:\\ruta\Python\lib\wxPython')
+sys.path.append("C:\\ruta\Python\lib\wxPython")
 
 print("\n2 - Creacion de una ventana simple")
 import wx

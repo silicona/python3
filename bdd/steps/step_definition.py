@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from behave import given, when, then
-from ..tdd_func import Calculadora
+from paquete.tdd_func import Calculadora
 
 @given('Yo he introducido {numero1:d} en la calculadora')
 

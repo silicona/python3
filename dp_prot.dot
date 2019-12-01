@@ -1,0 +1,32 @@
+strict graph dp_protocolo {
+	graph [label="Protocolo AyA",
+		labelloc=t,
+		pad=0.3
+	];
+	node [label="\N"];
+	edge [dir=forward];
+	subgraph contacaso {
+		graph [rank=same];
+		asociado	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Asociado</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>];
+		contacto	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Contacto</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>];
+	}
+	usuarios	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Usuarios</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>];
+	comprador	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Comprador</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>];
+	asociado -- comprador	[label="Comprador
+con financiación"];
+	llamada	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Llamada</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>];
+	visita	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Visita</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>];
+	llamada -- visita;
+	llamada -- contacto;
+	visita -- contacto	[style=dashed];
+	contacto -- asociado;
+	operacion	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Operacion</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>];
+	contacto -- operacion	[label="Comprador
+sin financiación",
+		labelangle=-50.5,
+		style=dashed];
+	propietario	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Propietario</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>];
+	propietario -- operacion	[style=dashed];
+	comprador -- operacion;
+	coordinador	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Coordinador</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>];
+}

@@ -3,6 +3,11 @@
 Suite de Test por BDD con 'Behave'
 
 Instalar con pip behave. Crear carpeta propia
+Modulos necesarios:
+behave
+faker
+splinter (incluye selenium)
+config
 
 [Documentacion Github](https://github.com/behave/behave)
 

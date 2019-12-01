@@ -1,0 +1,126 @@
+strict graph dp {
+	graph [label="Perfiles de AyA",
+		labelloc=t,
+		pad=0.3
+	];
+	node [label="\N"];
+	edge [dir=forward];
+	subgraph perfiles {
+		graph [rank=same];
+		admin	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Admin</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		legal	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Legal</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		fiscal	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Fiscal</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		financiero	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Financiero</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		comercial	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Comercial</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		coordinador	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Coordinador</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		delegado	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Delegado</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		propietario	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Propietario</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		comprador	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Comprador</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		comer_finan	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Comer finan</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+		litigio	[group=perfiles,
+			label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Litigio</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			ordering=out,
+			shape=ellipse];
+	}
+	subgraph origen {
+		graph [rank=same];
+		usuarios	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Usuarios</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			shape=ellipse];
+		central	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Central</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			shape=ellipse];
+		asociados	[label=<<table border='0'><tr><td></td><td port="titulo_arriba"></td><td></td></tr><tr><td colspan='3'>Asociados</td></tr><tr><td></td><td port="titulo_abajo"></td><td></td></tr></table>>,
+			shape=ellipse];
+	}
+	subgraph inicios {
+		graph [rank=same];
+		inicio_admin	[group=inicio_admin,
+			label=<<table border="0"><tr><td align="left" port="anuncio">Anuncios</td></tr><tr><td align="left" port="gestion">Gestión comercial</td></tr><tr><td align="left">Argumentario</td></tr><tr><td align="left" port="">Consultas</td></tr><tr><td align="left" port="tecnico">&emsp;Técnico</td></tr><tr><td align="left" port="comercial">&emsp;Comerciales</td></tr><tr><td align="left" port="legal">&emsp;Legales</td></tr><tr><td align="left" port="fiscal">&emsp;Fiscales</td></tr><tr><td align="left" port="financiero">&emsp;Financieras</td></tr><tr><td align="left" port="llamada">Llamadas</td></tr><tr><td align="left" port="contacto">Contactos</td></tr><tr><td align="left" port="visita">Visitas</td></tr><tr><td align="left" port="oferta">Ofertas</td></tr><tr><td align="left" port="propiedad">Propiedades</td></tr><tr><td align="left" port="usuario">Usuarios</td></tr><tr><td align="left" port="delegacion">Delegaciones</td></tr><tr><td align="left" port="operacion">Operaciones</td></tr><tr><td align="left" port="litigio">Litigios</td></tr><tr><td align="left" port="publicidad">Volcados</td></tr></table>>,
+			shape=box];
+		inicio_legal	[group=inicio_legal,
+			label=<<table border="0" valign="top"><tr><td align="left" port="consulta">Consultas</td></tr><tr><td align="left" port="comercial">&emsp;Comerciales</td></tr><tr><td align="left" port="legal">&emsp;Legales</td></tr><tr><td align="left" port="fiscal">&emsp;Fiscales</td></tr><tr><td align="left" port="financiero">&emsp;Financieras</td></tr><tr><td align="left" port="propiedades">Propiedades</td></tr><tr><td align="left" port="usuario">Usuarios</td></tr></table>>,
+			shape=box];
+		inicio_finan	[group=inicio_finan,
+			label=<<table border="0" valign="top"><tr><td align="left" port="consulta">Consultas</td></tr><tr><td align="left" port="legal">&emsp;Mi abogado</td></tr><tr><td align="left" port="fiscal">&emsp;Mi fiscal</td></tr><tr><td align="left" port="financiero">&emsp;Mi financiero</td></tr><tr><td align="left" port="contacto">Contactos</td></tr><tr><td align="left" port="operacion">Operaciones</td></tr></table>>,
+			shape=box];
+		inicio_comer	[group=inicio_comer,
+			label=<<table BORDER="0"><tr><td align="left" port="anuncio">Anuncios</td></tr><tr><td align="left" port="nuevo">&emsp;Nuevos</td></tr><tr><td align="left" port="seguimiento">&emsp;En seguimiento</td></tr><tr><td align="left" port="adelante">&emsp;Más adelante</td></tr><tr><td align="left" port="tramite">&emsp;En trámite</td></tr><tr><td align="left" port="no_contesta">&emsp;No contesta</td></tr><tr><td align="left" port="contratado">&emsp;Contratados</td></tr><tr><td align="left" port="no_interesa">&emsp;No interesa</td></tr><tr><td align="left" port="descartados">&emsp;Descartados</td></tr><tr><td align="left" port="argumentario">Argumentario</td></tr><tr><td align="left" port="litigio">Litigios</td></tr></table>>,
+			shape=box];
+		inicio_dele	[group=inicio_dele,
+			label=<<table border="0"><tr><td align="left" port="anuncio">Anuncios</td></tr><tr><td align="left" port="panel">Panel de control</td></tr><tr><td align="left">Argumentario</td></tr><tr><td align="left" port="">Consultas</td></tr><tr><td align="left" port="tecnico">&emsp;Técnico</td></tr><tr><td align="left" port="comercial">&emsp;Comerciales</td></tr><tr><td align="left" port="legal">&emsp;Legales</td></tr><tr><td align="left" port="fiscal">&emsp;Fiscales</td></tr><tr><td align="left" port="financiero">&emsp;Financieras</td></tr><tr><td align="left" port="llamada">Llamadas</td></tr><tr><td align="left" port="contacto">Contactos</td></tr><tr><td align="left" port="visita">Visitas</td></tr><tr><td align="left" port="oferta">Ofertas</td></tr><tr><td align="left" port="propiedad">Propiedades</td></tr><tr><td align="left" port="usuario">Usuarios</td></tr><tr><td align="left" port="operacion">Operaciones</td></tr><tr><td align="left" port="litigio">Litigios</td></tr></table>>,
+			shape=box];
+		inicio_prop	[group=inicio_prop,
+			label=<<table BORDER="0"><tr><td ALIGN="LEFT">Panel de control</td></tr><tr><td align="left" port="consulta">Consultas</td></tr><tr><td align="left" port="comercial">&emsp;Comerciales</td></tr><tr><td align="left" port="legal">&emsp;Legales</td></tr><tr><td align="left" port="fiscal">&emsp;Fiscales</td></tr><tr><td align="left" port="llamadas">Llamadas</td></tr><tr><td align="left" port="visitas">Visitas</td></tr><tr><td align="left" port="ofertas">Ofertas</td></tr><tr><td align="left" port="usuario">Mis datos</td></tr><tr><td align="left" port="propiedad">Mi propiedad</td></tr></table>>,
+			shape=box];
+		inicio_comp	[group=inicio_comp,
+			label=<<table BORDER="0"><tr><td align="left" port="credito">Mi crédito</td></tr><tr><td align="left" port="consulta">Consultas</td></tr><tr><td align="left" port="legal">&emsp;Mi abogado</td></tr><tr><td align="left" port="fiscal">&emsp;Mi fiscal</td></tr><tr><td align="left" port="financiero">&emsp;Mi financiero</td></tr><tr><td align="left" port="usuario">Mis datos</td></tr></table>>,
+			shape=box];
+		inicio_comer_finan	[group=inicio_comer_finan,
+			label=<<table border="0" valign="top"><tr><td align="left" port="contacto">Contactos</td></tr><tr><td align="left" port="operacion">Operaciones</td></tr></table>>,
+			shape=box];
+		inicio_liti	[group=inicio_liti,
+			label=<<table BORDER="0"><tr><td align="left" port="litigio">Litigios</td></tr></table>>,
+			shape=box];
+	}
+	usuarios -- asociados	[dir=none];
+	central -- usuarios	[dir=none];
+	central -- admin;
+	central -- legal;
+	central -- fiscal;
+	central -- financiero;
+	central -- comer_finan;
+	central -- litigio;
+	asociados -- comercial;
+	asociados -- coordinador;
+	asociados -- delegado;
+	asociados -- propietario;
+	asociados -- comprador;
+	admin:titulo_abajo -- inicio_admin;
+	legal:titulo_abajo -- inicio_legal;
+	comp_archivos	[label=<<table border="0"><tr><td FIXEDSIZE="TRUE" WIDTH="20" HEIGHT="20"><img scale="BOTH" src="lib/img/save.png"/></td><td>Gestión de archivos</td></tr><tr><td align="left" colspan="2">Consultas - Multiple</td></tr><tr><td align="left" colspan="2">Operaciones - Individual</td></tr><tr><td align="left" colspan="2">Mi crédito - Individual</td></tr><tr><td align="left" colspan="2">¿¿ Mi propiedad - Individual ??</td></tr></table>>];
+	inicio_legal -- comp_archivos	[color=green];
+	fiscal:titulo_abajo -- inicio_legal;
+	financiero:titulo_abajo -- inicio_finan;
+	inicio_finan -- comp_archivos	[color=green];
+	comercial:titulo_abajo -- inicio_comer;
+	coordinador:titulo_abajo -- inicio_dele;
+	coordinador:titulo_abajo -- delegado:titulo_abajo;
+	inicio_dele -- comp_archivos	[color=green];
+	delegado:titulo_abajo -- inicio_dele;
+	propietario:titulo_abajo -- inicio_prop;
+	inicio_prop -- comp_archivos	[color=green];
+	comprador:titulo_abajo -- inicio_comp;
+	inicio_comp -- comp_archivos	[color=green];
+	comer_finan:titulo_abajo -- inicio_comer_finan;
+	inicio_comer_finan -- comp_archivos	[color=green];
+	litigio:titulo_abajo -- inicio_liti;
+}
